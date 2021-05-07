@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="mySuite">
+    <test name="Run all tests">
+        <packages>
+            <package name="test_pkg_2"/>
+        </packages>
+    </test>
+<!--    <test name="myTest">-->
+<!--        <classes>-->
+<!--            <class name="beforeAfter.BeforeAfter2"/>-->
+<!--            <class name="beforeAfter.BeforeAfter"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="secondTest">-->
+<!--        <classes>-->
+<!--            <class name="tests_pckg.DummySeleniumTest">-->
+<!--                <methods>-->
+<!--                    <exclude name="testOpeningGoogle2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

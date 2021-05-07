@@ -1,4 +1,4 @@
-package tests_pckg;
+package test_pkg_2;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
