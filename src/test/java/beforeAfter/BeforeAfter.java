@@ -1,5 +1,6 @@
 package beforeAfter;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class BeforeAfter {
@@ -22,6 +23,7 @@ public class BeforeAfter {
     @Test
     public void test2() {
         System.out.println("BeforeAfter.test2");
+        Assert.fail("Fail for testing purposes");
     }
 
     @AfterMethod
